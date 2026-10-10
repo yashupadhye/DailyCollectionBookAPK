@@ -1,0 +1,18 @@
+{
+  "name": "daily-collection-book",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily Collection Book Android app",
+  "scripts": {
+    "build": "node -e \"console.log('HTML app is in www/index.html')\"",
+    "cap:add:android": "cap add android",
+    "cap:sync": "cap sync android"
+  },
+  "dependencies": {
+    "@capacitor/android": "^7.4.3",
+    "@capacitor/core": "^7.4.3"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^7.4.3"
+  }
+}
