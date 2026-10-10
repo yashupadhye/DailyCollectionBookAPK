@@ -4,15 +4,14 @@
   "private": true,
   "description": "Daily Collection Book Android app",
   "scripts": {
-    "build": "node -e \"console.log('HTML app is in www/index.html')\"",
-    "cap:add:android": "cap add android",
-    "cap:sync": "cap sync android"
+    "build": "echo No web build required"
   },
   "dependencies": {
     "@capacitor/android": "^7.4.3",
     "@capacitor/core": "^7.4.3"
   },
   "devDependencies": {
-    "@capacitor/cli": "^7.4.3"
+    "@capacitor/cli": "^7.4.3",
+    "typescript": "^5.8.3"
   }
 }
